@@ -1,0 +1,84 @@
+    #aboutus:hover{
+      color: darkblue;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+    
+  .header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-heading {
+  order: 1;
+  margin-right: auto;
+}
+
+.right-heading {
+  order: 2;
+  margin-left: auto;
+}
+
+    section {
+      display: flex;
+      flex-direction: row;
+      
+    }
+
+    .searchtools {
+      display: flex;
+      flex-direction: column;
+      margin-right: 2em;
+    }
+    .searchtools:first-child{
+      flex-span: 2;
+    }
+    nav {
+      margin-bottom: 0px;
+    }
+
+    h1 {
+      display: inline;
+      margin-right: 10em;
+    }
+
+    p {
+      margin-right: 10px;
+    }
+
+    .tenpx {
+      margin-top: 0x;
+    }
+   .category {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+}
+  .cardi img{
+    width: 100%;
+    height: 60%;
+  }
+.cardi {
+  display: inline-block;
+  border: 1px solid black;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+  .cardi:hover{
+    filter: brightness(0.8);
+    cursor: pointer;
+  }
+    .toggler{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      cursor:pointer;
+    }
+    .dropdown-item{
+       transition: filter 0.3s ease-in-out;
+    }
+    .dropdown-item:hover{
+      filter: brightness(0.5);
+      cursor: pointer;
+      text-decoration: underline blueviolet;
+    }
